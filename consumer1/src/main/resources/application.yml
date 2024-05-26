@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: consumer1
+#  kafka:
+#    consumer:
+#      bootstrap-servers: "localhost:9092"
+#      group-id: "CONSUMER-GROUP-1"
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      properties:
+#        group:
+#          instance:
+#            id: "cm"
+server:
+  port: 8081
